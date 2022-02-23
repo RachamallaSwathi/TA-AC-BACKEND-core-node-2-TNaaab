@@ -4,6 +4,7 @@
 // - capture the data sent from postman on server side
 // - send captured data in response using `res.write`
 
+
 var http=require('http');
 let server=http.createServer(handleRequest);
 
